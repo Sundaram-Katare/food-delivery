@@ -8,7 +8,7 @@ ZippyGrocers is a **quick-commerce (q-commerce) website** built with **React** a
 - ⚡ **Real-time Data Fetching from Backend**
 - 🔥 **Smooth User Experience with Tailwind CSS**
 - 💡 **Lightweight Backend using Node.js & Express**
-- 🛍️ **Add to Cart Functionality** *(Upcoming Feature)*
+- 🛍️ **Add to Cart Functionality** 
 
 ## 📸 Preview
 ![image](https://github.com/user-attachments/assets/721d0333-9d81-4dd3-8a5a-5a9756020f65)
@@ -25,5 +25,5 @@ https://food-delivery-two-kohl.vercel.app/
 ### 🔧 Installation
 1. **Clone the repository**  
     ```sh
-   git clone https://github.com/your-username/repo-name.git](https://github.com/Sundaram-Katare/food-delivery
+   git clone https://github.com/Sundaram-Katare/food-delivery
 
