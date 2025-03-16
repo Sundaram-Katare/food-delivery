@@ -1,8 +1,29 @@
-# React + Vite
+# 🛒 ZippyGrocers - Q-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ZippyGrocers is a **quick-commerce (q-commerce) website** built with **React** and **Tailwind CSS** for the frontend, and **Node.js & Express** for the backend. The backend stores product data as an **array of objects** instead of using a database. The website is **fully responsive** for an optimal shopping experience across all devices.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📦 **Fast and Easy Grocery Shopping**
+- 🎨 **Modern & Responsive UI**
+- ⚡ **Real-time Data Fetching from Backend**
+- 🔥 **Smooth User Experience with Tailwind CSS**
+- 💡 **Lightweight Backend using Node.js & Express**
+- 🛍️ **Add to Cart Functionality** 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![image](https://github.com/user-attachments/assets/721d0333-9d81-4dd3-8a5a-5a9756020f65)
+
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Data Storage:** Array of Objects (No Database)
+
+## 🚀 Getting Started
+https://food-delivery-two-kohl.vercel.app/
+
+### 🔧 Installation
+1. **Clone the repository**  
+    ```sh
+   git clone https://github.com/Sundaram-Katare/food-delivery
+
