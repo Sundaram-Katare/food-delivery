@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
+import Cart from "./Cart";
 
 import Modal from "./Modal.jsx"; // Import the modal component
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   return (
     <>
@@ -29,34 +31,32 @@ const Navbar = () => {
         </div>
 
         {/* Right: Login & Cart */}
-        <div className="space-x-3 hidden md:flex items-center space-x-6">
+        <div className="flex space-x-3 flex-col justify-center align-center md:flex-row items-center space-x-6">
           {/* Open Modal on Click */}
           <span
-            className="cursor-pointer font-semibold"
+            className="hidden md:flex visible cursor-pointer font-semibold"
             onClick={() => setIsModalOpen(true)}
           >
             Login
           </span>
 
-          <span
-            className="cursor-pointer font-semibold"
-            onClick={() => setIsModalOpen(true)}
-          >
-            Signup
-          </span>
-          <FaShoppingCart className="w-6 h-6 text-gray-700 cursor-pointer" />
+          <FaShoppingCart className="w-6 h-6 text-gray-700 cursor-pointer" 
+                          onClick={() => setIsCartOpen(true)} 
+          />
         </div>
 
-        <span
+        {/* <span
             className="cursor-pointer font-semibold flex md:hidden"
             onClick={() => setIsModalOpen(true)}
           >
             <AiOutlineMenu />
-          </span>
+          </span> */}
       </nav>
 
       {/* Use the Modal Component */}
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+
+      <Cart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
     </>
   );
 };
